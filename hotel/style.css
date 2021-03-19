@@ -1,0 +1,133 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar
+{
+    min-height: 8%;
+    background-image: linear-gradient(to right, #ff9800, #a46406  );
+}
+
+.menu-bar img
+{
+    width: 100px;
+}
+
+.nav-link
+{
+    color: wheat
+}
+
+.nav-link:hover
+{
+   color: limegreen
+}
+
+.active
+{
+    color: blue
+}
+
+.navbar-toggler .fa
+{
+  color: wheat
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+.banner
+{
+    min-height: 77%;
+    color: #555;
+}
+
+.banner img
+{
+    width: 50%;
+}
+
+.info a
+{
+    font-size: 25px;
+    color: red;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin: 5% auto;
+    background: limegreen;
+    display: inline-block;
+}
+
+.info .second-btn
+{
+  border: 1px solid limegreen;
+  background: transparent !important;
+  color: red !important;
+  transition: 0.5s;
+}
+
+.info .second-btn:hover
+{
+    background: limegreen !important;
+    color: red !important;
+}
+
+/*.footer-widget
+{
+    min-height: 15%;
+    background-image: linear-gradient(to right, #ff9800, #a46406  );
+    padding: 21px 0;
+    display: inline-flex;
+    color: #fff
+}*/
+
+
+.footer
+{
+    font-size: 15px;
+    background-image: linear-gradient(to right, #ff9800, #a46406  );
+}
+
+.contact
+{
+    font-size: 15px;
+    background-image: linear-gradient(to right, #ff9800, #a46406  );
+}
+
+.social-links {
+    padding: 20px;
+    margin-top: 140px;
+    font-size: large;
+}
+
+.social-links ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.btn-social {
+     padding: 5px 25px;
+     border: none;
+     border-radius: 50px;
+}
+
+.social-links > button :hover {
+    background-color: red;
+
+}
+
+.offer
+{
+    font-size: 15px;
+    background-image: linear-gradient(to right, #ff9800, #a46406  );
+}
+
+.service
+{
+    font-size: 15px;
+    background-image: linear-gradient(to right, #ff9800, #a46406  );
+}
